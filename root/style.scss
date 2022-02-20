@@ -51,6 +51,44 @@ div.continer {
                             }
                         }
                     }
+
+                    &Right {
+                        height: 100%;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+
+                        div {
+                            &.boxMod {
+                                ul {
+                                    height: 100%;
+                                    display: flex;
+                                    justify-content: center;
+                                    align-items: center;
+
+                                    li {
+                                        list-style-type: none;
+                                        margin: 0 10px;
+
+                                        a {
+                                            text-decoration: none;
+                                            color: black;
+
+                                            img {
+                                                width: 32px;
+                                                height: 32px;
+                                                border: 1px solid black;
+                                                border-radius: 50%;
+                                            }
+                                            &:hover{
+                                                text-decoration: underline;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
                 }
             }
 

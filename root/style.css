@@ -66,6 +66,53 @@ div.continer div.box1 div.headerleft ul li a:hover {
   text-decoration: underline;
 }
 
+div.continer div.box1 div.headerRight {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+div.continer div.box1 div.headerRight div.boxMod ul {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+div.continer div.box1 div.headerRight div.boxMod ul li {
+  list-style-type: none;
+  margin: 0 10px;
+}
+
+div.continer div.box1 div.headerRight div.boxMod ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+div.continer div.box1 div.headerRight div.boxMod ul li a img {
+  width: 32px;
+  height: 32px;
+  border: 1px solid black;
+  border-radius: 50%;
+}
+
+div.continer div.box1 div.headerRight div.boxMod ul li a:hover {
+  text-decoration: underline;
+}
+
 div.continer div.box2 {
   height: 400px;
 }
