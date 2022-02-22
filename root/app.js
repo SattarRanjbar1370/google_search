@@ -11,7 +11,7 @@ boxMod = '<div class="boxMod box_R_1" id="box_R_1"></div><div class="boxMod box_
 divheadRight = document.getElementById('headRight');
 divheadRight.innerHTML = boxMod;
 divHeadBoxR1 = '<ul><li><a href="#">Gmail</a></li><li><a href="#">Image</a></li></ul>';
-divHeadBoxR2 = '<ul><li><a href="#"><img src=""></img></a></li><li><a href="#"><img src=""></img></a></li></ul>';
+divHeadBoxR2 = '<ul><li class="one-child"><a href="#"><img src="../image/menu-svgrepo-com.svg"></img></a></li><li class="two-child"><a href="#">Sing in</a></li></ul>';
 R_1 = document.getElementById('box_R_1');
 R_1.innerHTML = divHeadBoxR1;
 R_2 = document.getElementById('box_R_2');

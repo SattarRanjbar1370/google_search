@@ -99,18 +99,42 @@ div.continer div.box1 div.headerRight div.boxMod ul li {
 
 div.continer div.box1 div.headerRight div.boxMod ul li a {
   text-decoration: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   color: black;
+  width: 40px;
+  height: 40px;
 }
 
-div.continer div.box1 div.headerRight div.boxMod ul li a img {
-  width: 32px;
-  height: 32px;
-  border: 1px solid black;
-  border-radius: 50%;
+div.continer div.box1 div.headerRight div.boxMod ul li a img:first-child {
+  width: 20px;
+  height: auto;
 }
 
 div.continer div.box1 div.headerRight div.boxMod ul li a:hover {
   text-decoration: underline;
+  background-color: #a3a5a7;
+}
+
+div.continer div.box1 div.headerRight div.boxMod ul li.two-child {
+  background-color: #5555ff;
+  border-radius: 5px;
+  padding: auto 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 9px 23px;
+}
+
+div.continer div.box1 div.headerRight div.boxMod ul li.two-child a:hover {
+  text-decoration: none;
 }
 
 div.continer div.box2 {
